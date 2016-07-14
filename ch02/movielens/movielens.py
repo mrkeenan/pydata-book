@@ -10,9 +10,9 @@ import os
 encoding = 'latin1'
 
 
-upath = os.path.expanduser('users.dat')
-rpath = os.path.expanduser('ratings.dat')
-mpath = os.path.expanduser('movies.dat')
+upath = os.path.expanduser('/users.dat')
+rpath = os.path.expanduser('/ratings.dat')
+mpath = os.path.expanduser('/movies.dat')
 
 unames = ['user_id', 'gender', 'age', 'occupation', 'zip']
 rnames = ['user_id', 'movie_id', 'rating', 'timestamp']
